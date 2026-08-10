@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Neptune Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Neptune Township boundary, adaptively resampled to 7.4 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.259970767127546,
+  "pixelSizeFeet": 7.414602254325808,
+  "adaptiveResolution": true,
+  "width": 4687,
+  "height": 3415,
+  "nodata": -999999,
+  "minMeters": -1.058,
+  "maxMeters": 48.803,
+  "meanMeters": 16.713,
+  "stdDevMeters": 11.175,
+  "minFeet": -3.4711286089100004,
+  "maxFeet": 160.114829395685,
+  "webMercatorBounds": [
+    -8248172.90876,
+    4892344.5803432595,
+    -8237580.425774473,
+    4900062.380513
+  ],
+  "leafletBounds": [
+    [
+      40.181457,
+      -74.0945979
+    ],
+    [
+      40.2343934,
+      -73.9994596
+    ]
+  ],
+  "files": {
+    "demCog": "neptune_township_dem_5ft_cog.tif",
+    "hillshadeCog": "neptune_township_hillshade_cog.tif",
+    "hillshadePng": "neptune_township_hillshade.png",
+    "boundaryGeojson": "neptune_township_boundary.geojson"
+  }
+}
